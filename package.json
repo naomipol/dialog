@@ -55,7 +55,8 @@
     "test": "rc-test run test",
     "chrome-test": "rc-test run chrome-test",
     "coverage": "rc-test run coverage",
-    "prepublish": "rc-tools run guard"
+    "prepublish": "rc-tools run guard",
+    "prepare": "npm run build && npm run compile"
   },
   "devDependencies": {
     "@types/mocha": "~8.0.0",
